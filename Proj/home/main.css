@@ -1,0 +1,86 @@
+.autoriz{
+display: flex;
+text-align: center;
+font-size: 25px;
+padding: 10px;
+flex-direction: column;
+border-radius: 5px;
+background-color: #5e242d;
+box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+margin-top: 20%;
+margin-left: 45%;
+margin-right: 45%;
+min-width: 155px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    border-radius: 2px;
+    border: 2px solid;
+    font-weight: 700;
+    transition: 0.3s;
+    
+}
+
+button:hover {
+    border-color: #ff9900;
+    color: #ff9900;
+	  background: rgba(0,0,0,0);
+}
+
+
+button[name = "Cancel"]{
+    color: rgb(255, 0, 0);
+}
+button[name = "Add"]{
+    color: rgb(0, 170, 14);
+}
+
+.table{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #5e242d;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-right: 35%;
+    min-width: 500px;
+}
+
+.table_dark {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 5px;
+    width: auto;
+    text-align: left;
+    border-collapse: collapse;
+    background: #464743;
+    margin: 10px;
+    min-width: 400px;
+  }
+
+  .table_dark th {
+    color: #ff9900;
+    border-bottom: 1px solid #ff9900;
+    padding: 12px 17px;
+  }
+  .table_dark td {
+    color: #CAD4D6;
+    border-bottom: 1px solid #ff9900;
+    border-right:1px solid #ff9900;
+    padding: 7px 17px;
+  }
+
+  .tavt{
+    padding-bottom: 10px;
+  }

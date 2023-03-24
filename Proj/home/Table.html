@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+         background: rgb(59, 59, 59); /* Цвет фона */
+         color: rgb(255, 255, 255); /* Цвет текста */
+        }
+       </style>
+</head>
+<body >
+    <div>
+        <div class="table">
+            <div>
+                <button type="submit" onclick="getData()">Загрузить данные</button>
+                <input placeholder="ФИО" type="text">
+                <button type="submit">Поиск</button>
+                <button type="submit" onclick="to_add_form()">Добавить в базу</button>
+            </div>
+            <table class="table_dark" id="table1">
+                <tr>
+                    <th>ID</th>
+                    <th>ФИО</th>
+                    <th>Login</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Смородин В.Р.</td>
+                    <td>Hakker1207</td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+</body>
+</html>
